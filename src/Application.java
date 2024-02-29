@@ -18,5 +18,7 @@ public class Application {
             System.out.println("Both numbers are positive and the sum is " + result);
         } else
             System.out.println("Number1 or/and Number2 is/are not positive");
+
+        System.out.println(calculator.multipyTwoNumbers(2, 4));
     }
 }

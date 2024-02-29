@@ -13,6 +13,10 @@ public class Calculator {
      * @return returns true if i is positive; false otherwise
      */
 
+    int multipyTwoNumbers(int i, int j) {
+        return (i * j);
+    }
+
     boolean isPositive(int i) {
         return (i >= 0);
     }
