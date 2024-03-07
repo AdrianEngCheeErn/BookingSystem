@@ -1,7 +1,7 @@
 public class Truck extends Vehicle{
-    private float loading;
+    private double loading;
 
-    public Truck(String brand, int year, float price, float loading){
+    public Truck(String brand, int year, double price, double loading){
         super(brand, year, price);
         this.loading = loading;
     }
