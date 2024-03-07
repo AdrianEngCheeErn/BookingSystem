@@ -9,6 +9,6 @@ public class Sedan extends Vehicle{
     }
     @Override
     public String toString() {
-        return super.toString() + this.range + this.engineType;
+        return super.toString() + "\nRange: " + this.range + " km" + "\n" + "Engine Type: " + this.engineType;
     }
 }

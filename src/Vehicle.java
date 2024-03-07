@@ -11,6 +11,6 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return "The vehicle is a " + this.brand + "which was made at " + this.year +", and it costs" + this.price;
+        return "Brand: " + this.brand + "\n" +"Year: " + this.year + "\n" + "Price: $" + String.format("%.2f", this.price) + " per day";
     }
 }

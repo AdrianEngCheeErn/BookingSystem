@@ -7,6 +7,6 @@ public class Truck extends Vehicle{
     }
     @Override
     public String toString() {
-        return super.toString() + this.loading;
+        return super.toString() + "\nLoading: " +this.loading;
     }
 }

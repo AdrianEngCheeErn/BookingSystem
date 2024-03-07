@@ -9,6 +9,6 @@ public class SUV extends Vehicle{
     }
     @Override
     public String toString() {
-        return super.toString() + this.seats + this.engineType;
+        return super.toString() + "\nNumber of Seats: " + this.seats + "\nEngine Type: " + this.engineType;
     }
 }

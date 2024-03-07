@@ -7,8 +7,10 @@ public class BookingSystem {
         this.vehicleArray = new Vehicle[6];
     }
     public void printStatus() {
-        System.out.println("Welcome to FIT2099 Booking System");
-        System.out.println("Thank you for visiting FIT2099 Booking System!");
+        System.out.println("Welcome to FIT2009 Booking System\n");
+        this.createVehicles();
+        this.displayVehicles();
+        System.out.println("Thank you for visiting FIT2009 Booking System!");
     }
 
     public void createVehicles(){
@@ -26,10 +28,11 @@ public class BookingSystem {
         this.vehicleArray[5] = truck2;
     }
 
-
     public void displayVehicles(){
         for (int i = 0; i < 6; i++){
-            this.vehicleArray[i].toString();
+            System.out.println("Booking Item " + "(" + (i + 1) + ")\n");
+            System.out.println(this.vehicleArray[i].toString());
+            System.out.println("\n");
         }
     }
 }
